@@ -13,11 +13,13 @@ git clone https://github.com/Luluaix/get_next_line.git   	$PROG/projets_42/pream
 git clone https://github.com/Luluaix/fillit.git 	    		$PROG/projets_42/preambule/fillit
 git clone https://github.com/Luluaix/libft.git	    			$PROG/projets_42/preambule/libft
 git clone https://github.com/Luluaix/piscine_reloaded.git	$PROG/projets_42/preambule/piscine_reloaded
-rm -Rf $HOME/.brew
 rm -Rf $HOME/.atom
 rm $HOME/.zshrc
 rm $HOME/.vimrc
-ln -sF $PROG/config/.brew $HOME/.brew
+rm $HOME/.gitconfig
+rm $HOME/.gitexcludes
 ln -sF $PROG/config/.atom $HOME/.atom
 ln -s $PROG/config/.zshrc $HOME/.zshrc
 ln -s $PROG/config/.vimrc $HOME/.vimrc
+ln -s $PROG/config/.gitconfig $HOME/.gitconfig
+ln -s $PROG/config/.gitexcludes $HOME/.gitexcludes
