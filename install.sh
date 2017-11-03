@@ -1,8 +1,8 @@
-# sh -c "$(curl -fsSL https://raw.githubusercontent.com/Luluaix/install/master/install.sh)"
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/pdamoune/install/master/install.sh)"
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 export PROG="$HOME/Documents/42"
 export ZSH="$PROG/config/.oh-my-zsh"
-git clone https://github.com/Luluaix/42.git $PROG --recursive
+git clone https://github.com/pdamoune/42.git $PROG --recursive
 rm -Rf $HOME/.atom
 rm $HOME/.zshrc
 rm $HOME/.vimrc
